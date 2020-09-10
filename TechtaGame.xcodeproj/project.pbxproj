@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417D68592509F4E400FA19BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D68582509F4E400FA19BA /* AppDelegate.swift */; };
+		417D685B2509F4E400FA19BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D685A2509F4E400FA19BA /* SceneDelegate.swift */; };
+		417D685D2509F4E400FA19BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D685C2509F4E400FA19BA /* ViewController.swift */; };
+		417D68602509F4E400FA19BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417D685E2509F4E400FA19BA /* Main.storyboard */; };
+		417D68622509F4E600FA19BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417D68612509F4E600FA19BA /* Assets.xcassets */; };
+		417D68652509F4E600FA19BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417D68632509F4E600FA19BA /* LaunchScreen.storyboard */; };
+		417D68702509F4E600FA19BA /* TechtaGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D686F2509F4E600FA19BA /* TechtaGameTests.swift */; };
+		417D687B2509F4E600FA19BA /* TechtaGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417D687A2509F4E600FA19BA /* TechtaGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417D686C2509F4E600FA19BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417D684D2509F4E400FA19BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417D68542509F4E400FA19BA;
+			remoteInfo = TechtaGame;
+		};
+		417D68772509F4E600FA19BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417D684D2509F4E400FA19BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417D68542509F4E400FA19BA;
+			remoteInfo = TechtaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417D68552509F4E400FA19BA /* TechtaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechtaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417D68582509F4E400FA19BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417D685A2509F4E400FA19BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		417D685C2509F4E400FA19BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		417D685F2509F4E400FA19BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417D68612509F4E600FA19BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417D68642509F4E600FA19BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417D68662509F4E600FA19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417D686B2509F4E600FA19BA /* TechtaGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417D686F2509F4E600FA19BA /* TechtaGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGameTests.swift; sourceTree = "<group>"; };
+		417D68712509F4E600FA19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417D68762509F4E600FA19BA /* TechtaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417D687A2509F4E600FA19BA /* TechtaGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtaGameUITests.swift; sourceTree = "<group>"; };
+		417D687C2509F4E600FA19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417D68522509F4E400FA19BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68682509F4E600FA19BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68732509F4E600FA19BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417D684C2509F4E400FA19BA = {
+			isa = PBXGroup;
+			children = (
+				417D68572509F4E400FA19BA /* TechtaGame */,
+				417D686E2509F4E600FA19BA /* TechtaGameTests */,
+				417D68792509F4E600FA19BA /* TechtaGameUITests */,
+				417D68562509F4E400FA19BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417D68562509F4E400FA19BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417D68552509F4E400FA19BA /* TechtaGame.app */,
+				417D686B2509F4E600FA19BA /* TechtaGameTests.xctest */,
+				417D68762509F4E600FA19BA /* TechtaGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417D68572509F4E400FA19BA /* TechtaGame */ = {
+			isa = PBXGroup;
+			children = (
+				417D68582509F4E400FA19BA /* AppDelegate.swift */,
+				417D685A2509F4E400FA19BA /* SceneDelegate.swift */,
+				417D685C2509F4E400FA19BA /* ViewController.swift */,
+				417D685E2509F4E400FA19BA /* Main.storyboard */,
+				417D68612509F4E600FA19BA /* Assets.xcassets */,
+				417D68632509F4E600FA19BA /* LaunchScreen.storyboard */,
+				417D68662509F4E600FA19BA /* Info.plist */,
+			);
+			path = TechtaGame;
+			sourceTree = "<group>";
+		};
+		417D686E2509F4E600FA19BA /* TechtaGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				417D686F2509F4E600FA19BA /* TechtaGameTests.swift */,
+				417D68712509F4E600FA19BA /* Info.plist */,
+			);
+			path = TechtaGameTests;
+			sourceTree = "<group>";
+		};
+		417D68792509F4E600FA19BA /* TechtaGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417D687A2509F4E600FA19BA /* TechtaGameUITests.swift */,
+				417D687C2509F4E600FA19BA /* Info.plist */,
+			);
+			path = TechtaGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417D68542509F4E400FA19BA /* TechtaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417D687F2509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGame" */;
+			buildPhases = (
+				417D68512509F4E400FA19BA /* Sources */,
+				417D68522509F4E400FA19BA /* Frameworks */,
+				417D68532509F4E400FA19BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechtaGame;
+			productName = TechtaGame;
+			productReference = 417D68552509F4E400FA19BA /* TechtaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417D686A2509F4E600FA19BA /* TechtaGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417D68822509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGameTests" */;
+			buildPhases = (
+				417D68672509F4E600FA19BA /* Sources */,
+				417D68682509F4E600FA19BA /* Frameworks */,
+				417D68692509F4E600FA19BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417D686D2509F4E600FA19BA /* PBXTargetDependency */,
+			);
+			name = TechtaGameTests;
+			productName = TechtaGameTests;
+			productReference = 417D686B2509F4E600FA19BA /* TechtaGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417D68752509F4E600FA19BA /* TechtaGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417D68852509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGameUITests" */;
+			buildPhases = (
+				417D68722509F4E600FA19BA /* Sources */,
+				417D68732509F4E600FA19BA /* Frameworks */,
+				417D68742509F4E600FA19BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417D68782509F4E600FA19BA /* PBXTargetDependency */,
+			);
+			name = TechtaGameUITests;
+			productName = TechtaGameUITests;
+			productReference = 417D68762509F4E600FA19BA /* TechtaGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417D684D2509F4E400FA19BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = IdoUmi;
+				TargetAttributes = {
+					417D68542509F4E400FA19BA = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					417D686A2509F4E600FA19BA = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 417D68542509F4E400FA19BA;
+					};
+					417D68752509F4E600FA19BA = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 417D68542509F4E400FA19BA;
+					};
+				};
+			};
+			buildConfigurationList = 417D68502509F4E400FA19BA /* Build configuration list for PBXProject "TechtaGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417D684C2509F4E400FA19BA;
+			productRefGroup = 417D68562509F4E400FA19BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417D68542509F4E400FA19BA /* TechtaGame */,
+				417D686A2509F4E600FA19BA /* TechtaGameTests */,
+				417D68752509F4E600FA19BA /* TechtaGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417D68532509F4E400FA19BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417D68652509F4E600FA19BA /* LaunchScreen.storyboard in Resources */,
+				417D68622509F4E600FA19BA /* Assets.xcassets in Resources */,
+				417D68602509F4E400FA19BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68692509F4E600FA19BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68742509F4E600FA19BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417D68512509F4E400FA19BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417D685D2509F4E400FA19BA /* ViewController.swift in Sources */,
+				417D68592509F4E400FA19BA /* AppDelegate.swift in Sources */,
+				417D685B2509F4E400FA19BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68672509F4E600FA19BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417D68702509F4E600FA19BA /* TechtaGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417D68722509F4E600FA19BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417D687B2509F4E600FA19BA /* TechtaGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417D686D2509F4E600FA19BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417D68542509F4E400FA19BA /* TechtaGame */;
+			targetProxy = 417D686C2509F4E600FA19BA /* PBXContainerItemProxy */;
+		};
+		417D68782509F4E600FA19BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417D68542509F4E400FA19BA /* TechtaGame */;
+			targetProxy = 417D68772509F4E600FA19BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417D685E2509F4E400FA19BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417D685F2509F4E400FA19BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417D68632509F4E600FA19BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417D68642509F4E600FA19BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417D687D2509F4E600FA19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417D687E2509F4E600FA19BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417D68802509F4E600FA19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417D68812509F4E600FA19BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		417D68832509F4E600FA19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechtaGame.app/TechtaGame";
+			};
+			name = Debug;
+		};
+		417D68842509F4E600FA19BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechtaGame.app/TechtaGame";
+			};
+			name = Release;
+		};
+		417D68862509F4E600FA19BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechtaGame;
+			};
+			name = Debug;
+		};
+		417D68872509F4E600FA19BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechtaGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ido.umi.TechtaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechtaGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417D68502509F4E400FA19BA /* Build configuration list for PBXProject "TechtaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417D687D2509F4E600FA19BA /* Debug */,
+				417D687E2509F4E600FA19BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417D687F2509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417D68802509F4E600FA19BA /* Debug */,
+				417D68812509F4E600FA19BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417D68822509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417D68832509F4E600FA19BA /* Debug */,
+				417D68842509F4E600FA19BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417D68852509F4E600FA19BA /* Build configuration list for PBXNativeTarget "TechtaGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417D68862509F4E600FA19BA /* Debug */,
+				417D68872509F4E600FA19BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417D684D2509F4E400FA19BA /* Project object */;
+}
